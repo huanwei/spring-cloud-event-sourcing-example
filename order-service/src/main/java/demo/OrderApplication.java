@@ -28,7 +28,7 @@ import org.springframework.stereotype.Component;
 @EnableResourceServer
 @EnableOAuth2Client
 @EnableHystrix
-@EnableCircuitBreaker
+//@EnableCircuitBreaker
 public class OrderApplication {
     public static void main(String[] args) {
         SpringApplication.run(OrderApplication.class, args);

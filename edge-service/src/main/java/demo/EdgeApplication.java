@@ -17,7 +17,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 @EnableZuulProxy
 @EnableResourceServer
 @EnableHystrix
-@EnableCircuitBreaker
+//@EnableCircuitBreaker
 @Configuration
 public class EdgeApplication {
 

@@ -15,7 +15,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @EnableZuulProxy
 @EnableOAuth2Sso
 @EnableHystrix
-@EnableCircuitBreaker
+//@EnableCircuitBreaker
 public class OnlineStoreApplication extends WebSecurityConfigurerAdapter {
 
     public static void main(String[] args) {

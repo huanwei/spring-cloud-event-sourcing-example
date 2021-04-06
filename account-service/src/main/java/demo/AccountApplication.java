@@ -32,7 +32,7 @@ import org.springframework.stereotype.Component;
 @EnableResourceServer
 @EnableOAuth2Client
 @EnableHystrix
-@EnableCircuitBreaker
+//@EnableCircuitBreaker
 public class AccountApplication {
     public static void main(String[] args) {
         SpringApplication.run(AccountApplication.class, args);

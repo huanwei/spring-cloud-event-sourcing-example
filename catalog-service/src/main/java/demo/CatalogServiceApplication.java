@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableHystrix
-@EnableCircuitBreaker
+//@EnableCircuitBreaker
 public class CatalogServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(CatalogServiceApplication.class, args);

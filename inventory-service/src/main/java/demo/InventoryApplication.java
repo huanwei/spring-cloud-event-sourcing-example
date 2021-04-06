@@ -25,7 +25,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @EnableEurekaClient
 @EnableHystrix
-@EnableCircuitBreaker
+//@EnableCircuitBreaker
 public class InventoryApplication {
     public static void main(String[] args) {
         SpringApplication.run(InventoryApplication.class, args);

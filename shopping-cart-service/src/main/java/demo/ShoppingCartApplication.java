@@ -34,7 +34,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableResourceServer
 @EnableOAuth2Client
 @EnableHystrix
-@EnableCircuitBreaker
+//@EnableCircuitBreaker
 public class ShoppingCartApplication {
     public static void main(String[] args) {
         SpringApplication.run(ShoppingCartApplication.class, args);
